@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="kiralogo.jpg">
+  <title>Conócenos</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="encabezado">
+    <a href="index.html">
+      <img src="kiralogo.jpg" alt="Kira Kira Sweety" class="logo">
+    </a>    
+    <div class="encabezado-texto">
+      <h1 class="titulo-principal">KIRA KIRA SWEETY</h1>
+      <h2 class="subtitulo">LOS MEJORES POSTRES DE TABASCO</h2>
+      <h3 class="subtitulo2">ROLES  BROWNIES  GALLETAS</h3>
+    </div>
+  </header>
+
+  <div class="container">
+    <nav class="sidebar">
+      <ul>
+        <li class="menu-desplegable">
+          <span class="menu-titulo">Menú</span>
+          <ul class="submenu">
+            <li><a href="roles.html">Roles</a></li>
+            <li><a href="galletas.html">Galletas</a></li>
+            <li><a href="brownies.html">Brownies</a></li>
+            <li><a href="paquetes.html">Paquetes</a></li>
+          </ul>
+        </li>
+        <li><a href="conocenos.html">Conócenos</a></li>
+        <li><a href="clientes.html">Clientes Satisfechos</a></li>
+        <li><a href="ubicacion.html">Ubicación</a></li>
+      </ul>
+    </nav>
+
+    <main class="content">
+      <div class="historia">
+         <h1>Nuestra Historia</h1>
+         <h2>Yareli y Carlos</h2>
+         <p>Kira Kira Sweety nació de la ilusión de dos hermanos por compartir su amor por los postres. Todo comenzó en nuestra cocina familiar, donde experimentábamos con recetas tradicionales y nuevos sabores, buscando siempre ese toque que hiciera sonreír a quien lo probara.</p>
+         <p>Con el tiempo, nuestros roles de canela, brownies y galletas se volvieron los favoritos entre amigos, vecinos y conocidos, lo que nos motivó a llevar nuestro sabor casero a más personas.</p>
+         <p>Hoy, seguimos creciendo con dedicación, manteniendo ese espíritu familiar, artesanal y lleno de cariño que nos caracteriza.</p>
+
+         <div id="foto-historia-container">
+           <img id="foto-historia" alt="Carlos y Yareli en concierto" class="foto-historia">
+         </div>
+
+         <script>
+           const imagenes = ["yarecarlosmexico.jpg", "concierto.jpg"]; 
+           const imagenAleatoria = imagenes[Math.floor(Math.random() * imagenes.length)];
+           document.getElementById("foto-historia").src = imagenAleatoria;
+         </script>
+      </div>
+    </main>
+  </div>
+
+  <footer class="pie-pagina">
+    <p>Contacto: 937 147 2785 | <a href="mailto:carlosperalta1062@gmail.com">carlosperalta1062@gmail.com</a></p>
+    <p>Síguenos en:
+      <a href="https://www.tiktok.com/@cinderelly1" target="_blank">Tik Tok</a> |
+      <a href="https://www.instagram.com/kira_kira.sweety/" target="_blank">Instagram</a>
+    </p>
+    <p>© 2025 AlfreRus Projects. Sitio web creado por Carlos Peralta.</p>
+  </footer>
+</body>
+</html>
